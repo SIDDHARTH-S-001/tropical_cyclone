@@ -37,4 +37,21 @@ The dataset can be found [here](https://www.kaggle.com/datasets/sshubam/insat3d-
 
 <br> the code for intensity estimation can be found [here](https://github.com/SIDDHARTH-S-001/tropical_cyclone/tree/main/intensity_estimation_programs).
 
+<br> Here is an example output, the expected result is 45 knots while prediction is 43.23 (quite accurate).
+
+<br> <img width="958" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/33cb9f7a-8f89-4d95-ad73-e99c782f010d">
+
+
+<h3>3) Approximate the trajectory of the cyclone</h3>
+
+<br> The approach followed here is the use of an ANN with custom architecture trained on a suitable data. The dataset was collected from WMO’s archive at NCEI-Noaa (National Centers for Environmental Information – National Oceanic and Atmospheric Administration) website. The data consists of cyclones from 1848 to 2023. The core informations include the time of locating a cyclone in (yyyy-mm-dd) format and this was on a 3hr interval, the index of whichever station was locating the cyclone, the LAT-LONG coordinates and the the Distance to land. 
+<br> here is an example of the dataset
+
+<br><img width="552" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/3d86ac71-7044-4c90-a4de-b3808c89383f">
+
+<br>The ANN has been trained for over 1500 epochs having Mean-Absolute-Error as loss function and Accuracy as the metric. The following figure shows the architecture of ANN.
+
+<br> <img width="634" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/0ddc1a63-ecef-48a4-aeb9-db5bc221c89a">
+
+
 
