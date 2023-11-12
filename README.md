@@ -53,5 +53,6 @@ The dataset can be found [here](https://www.kaggle.com/datasets/sshubam/insat3d-
 
 <br> <img width="634" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/0ddc1a63-ecef-48a4-aeb9-db5bc221c89a">
 
+<br> the code for trajectory approximation can be found [here]()
 
 
