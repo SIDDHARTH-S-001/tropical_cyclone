@@ -32,7 +32,9 @@ The program uses a DHT11 sensor along with a GPS module to tap the temperature a
 The dataset can be found [here](https://www.kaggle.com/datasets/sshubam/insat3d-infrared-raw-cyclone-images-20132021). 
 
 <br> The implementation involves training of a CNN with custom architecture to predict the intensity of a cyclone whose image is fed into the model. The data has been split into 80% training while the rest 25% is used for testing. The metrics of evaluation involve mean-absolute-error as loss, mean-squared-error for validation and adam optimization. The CNN has been trained for over 3000 epochs to improve its performance. The figure shows the summary of the CNN model.
+
 <br> <img width="575" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/377a77ac-af58-4160-a72a-83906ae075ca">
+
 <br> the code for intensity estimation can be found [here](https://github.com/SIDDHARTH-S-001/tropical_cyclone/tree/main/intensity_estimation_programs).
 
 
