@@ -60,7 +60,7 @@ The dataset can be found [here](https://www.kaggle.com/datasets/sshubam/insat3d-
 
 <br> the expected output must be -15.5, 57 and 800. However we can notice the model predicts the latitude corrdinate to be -17.4, longitude coordinate to be around 57.84 and the distance to land around 845.3 which is really good performance.
 
-<h2>4)Predict the impact of a cyclone in a particulat area</h2>
+<h2>4) Predict the impact of a cyclone in a particulat area</h2>
 <br> The impact can be measured based on many indices, it could be level of financial investment needed for repair work, it could be loss in the form of lives and livestock etc.
 The dataset used was on Impacts and recovery from Severe Tropical Cyclone Yasi on the Great Barrier Reef. The parameters used were year, circulation area of the cyclone (Km), Intensity in Knots and Persistence (hrs).  The parameter of interest was the Damage-Index which is used by Australian Meterological dept. The index is calculated based on the wind speed (intensity), hurricane radius and population density of the region where the cyclone crosses the sea.
 This data has been used to train an ANN for 3000 epochs with Mean-Absolute-Error was used as the loss function and Mean-Squared-Error has been taken as the metric of evaluation.
