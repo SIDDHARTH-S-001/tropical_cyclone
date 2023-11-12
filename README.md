@@ -2,10 +2,10 @@
 <h3>Introduction</h3>
 <br> The goal of this project is to do the following, <br>
 
-*  Predict the [arrival]() of a cyclone.
-*  Estimate the [intensity]() of the cyclone.
-*  Approximate the [trajectory]() of the cyclone.
-*  Predict the [impact]()  (amount of rainfall) due to the cyclone in a particular area.
+*  Predict the arrival of a cyclone.
+*  Estimate the intensity of the cyclone.
+*  Approximate the trajectory of the cyclone.
+*  Predict the impact (amount of rainfall) due to the cyclone in a particular area.
 
 <h3>1) Predict the Arrival of a cyclone</h3>
 <br> Humidity turns out to be the most significant environmental parameter that indicates the arrival of a cyclone.
