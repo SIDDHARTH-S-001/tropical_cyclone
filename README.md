@@ -14,13 +14,13 @@ The relavant codes can be found [here](https://github.com/SIDDHARTH-S-001/tropic
 The program uses a DHT11 sensor along with a GPS module to tap the temperature and humidity value in a particular location. The sensor data is being sent to a ThingSpeak server for future purposes. Once the humidity value crosses 75% then an Email alert will be triggered.
 
 <br> The output in Serial Monitor is shown in the figure below, 
-<br> ![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/38b06fa9-a2e7-4853-be1c-06f5530540b1)
+![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/38b06fa9-a2e7-4853-be1c-06f5530540b1)
 
 <br> This figure shows the 
-<br> ![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/2a32dc4c-f34c-43ce-8f73-09d4fa87ac63)
+![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/2a32dc4c-f34c-43ce-8f73-09d4fa87ac63)
 
 <br> This is an example of the Email trigger
-<br> ![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/cc244234-4976-4300-83b0-010b209f82bd)
+![image](https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/cc244234-4976-4300-83b0-010b209f82bd)
 
 <h3>2) Estimating the intensity of the cyclone</h3>
 <br> The INSAT-3D satellite dataset contains raw and IR images of over 130 cyclones over the Indian Ocean from 2012-2021 along with the corresponding wind speed (in knots). Studies show that wind speed is a direct indication of the intensity of a cyclone and hence been used as the primary metric in this section of the project. <br>
