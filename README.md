@@ -24,7 +24,7 @@ The program uses a DHT11 sensor along with a GPS module to tap the temperature a
 
 <br> This is an example of the Email trigger
 
-<br< <img width="724" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/7df64fe6-fa78-428e-b999-deb292571726">
+<br> <img width="724" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/7df64fe6-fa78-428e-b999-deb292571726">
 
 <h3>2) Estimating the intensity of the cyclone</h3>
 <br> The INSAT-3D satellite dataset contains raw and IR images of over 130 cyclones over the Indian Ocean from 2012-2021 along with the corresponding wind speed (in knots). Studies show that wind speed is a direct indication of the intensity of a cyclone and hence been used as the primary metric in this section of the project. <br>
