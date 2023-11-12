@@ -1,6 +1,6 @@
 # Trop Cyclone
 <h2>Introduction</h2>
-<br> The goal of this project is to do the following, <br>
+<br> The following are the goals of this project, <br>
 
 *  Predict the arrival of a cyclone.
 *  Estimate the intensity of the cyclone.
