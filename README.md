@@ -14,13 +14,16 @@ The relavant codes can be found [here](https://github.com/SIDDHARTH-S-001/tropic
 The program uses a DHT11 sensor along with a GPS module to tap the temperature and humidity value in a particular location. The sensor data is being sent to a ThingSpeak server for future purposes. Once the humidity value crosses 75% then an Email alert will be triggered.
 
 <br> The output in Serial Monitor is shown in the figure below, 
+
 <br><img width="707" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/efd1414e-f32e-4d92-8f8e-68b095ab841c">
 
 
 <br> This figure shows the data visuals in ThingSpeak Server
+
 <br><img width="702" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/3fc77dd6-648e-4b1d-a31b-93953f26817e">
 
 <br> This is an example of the Email trigger
+
 <br< <img width="724" alt="image" src="https://github.com/SIDDHARTH-S-001/tropical_cyclone/assets/73553742/7df64fe6-fa78-428e-b999-deb292571726">
 
 <h3>2) Estimating the intensity of the cyclone</h3>
